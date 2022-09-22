@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: 'Roboto', serif;
+	margin-left: 20px;
+	background-color: rgb(255, 255, 255);
+}
+
+.introducao h1 {
+	margin-top:70px ;
+	font-size: 57px;
+}
+
+.introducao img {
+	border-radius: 12px;
+	margin-left:90px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.introducao figcaption {
+	margin-bottom: 25px;
+	font-size: 16px;
+	margin-left: 100px;
+}
+
+.introducao p {
+	font-size: 18px;
+}
+
+.explica1 h2 {
+	font-size: 30px;
+}
+
+.explica1 p {
+	font-size: 18px;
+}
+
+.explica2 h2 {
+	font-size: 30px;
+}
+
+.explica2 p {
+	font-size: 18px;
+}
+
+.componentes h2 {
+	font-size: 30px;
+}
+
+.componentes h3 {
+	font-size: 25px;
+}
+
+.componentes p {
+	font-size: 18px;
+}
+
+.componentes video {
+	align-items: center;
+	position: absolute;
+	margin-left: 120px;
+}
+
+.video h2 {
+	align-items: center;
+	margin-left: 130px;
+}
+
+.componentes img {
+	border-radius: 12px;
+	margin-left: 90px;
+}
+
+.componentes li {
+	font-size: 18px;
+}
+
+.componentes figcaption {
+	margin-bottom: 25px;
+	font-size: 16px;
+	margin-left: 100px;
+}

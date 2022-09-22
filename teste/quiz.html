@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Sobre Sistema Circulatório</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+    <!--Link CDM do FontsAwesome para os icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <a class="btn btn-light" href="telaprincipal.html" role="button">Página Inicial</a>
+    <!--Botão de start -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Caixa de informações -->
+    <div class="info_box">
+        <div class="info-title"><span>Algumas regras sobre o Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Você só tem <span>15 segundos</span> para cada questão.</div>
+            <div class="info">2. Depois de selecionar sua resposta, ela não pode ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção depois que o tempo acabar.</div>
+            <div class="info">4. Você não pode sair do Quiz enquanto estiver jogando.</div>
+            <div class="info">5. Você receberá pontos com base em suas respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair do Quiz</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Caixa do Quiz -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Questionário Sobre Sistema Circulatório &#128520</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo Restante</div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui eu inseri uma pergunta do JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Aqui eu inseri opções do JavaScript -->
+            </div>
+        </section>
+
+        <!-- rodapé da caixa de perguntas -->
+        <footer>
+            <div class="total_que">
+                <!-- Aqui eu inseri o número de contagem de perguntas do JavaScript -->
+            </div>
+            <button class="next_btn">Próximo</button>
+        </footer>
+    </div>
+
+    <!-- Caixa de resultados -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você competou o quiz OMG!</div>
+        <div class="score_text">
+            <!-- Aqui eu inseri o Resultado da Pontuação do JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart Quiz</button>
+            <button class="quit">Sair do Quiz</button>
+        </div>
+    </div>
+
+    <!-- Dentro deste arquivo JavaScript eu inseri apenas Perguntas e Opções -->
+    <script src="js/questions.js"></script>
+
+    <!-- Dentro deste arquivo JavaScript eu codifiquei todos os códigos de teste -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
